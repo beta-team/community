@@ -20,7 +20,7 @@ This document illustrates the usage of our dataset from the view of client.
 2. `make_xxx()`: generate split data and store them locally.
 3. `load_xxx()`: load split data from local disk or from Onedrive.
 
-## Senario
+## Scenario
 
 1. For those datasets that can be download with a URL:
 
@@ -38,16 +38,16 @@ This document illustrates the usage of our dataset from the view of client.
 
 ## Difference between load and make
 
-load:
+`load_xxx`:
 
 + pros:
-  + this method do not need any computational resource of local machine. Client can access split data easily by downloading from our Onedrive.
+  + This method do not need any computational resource of local machine. Client can access split data easily by downloading from our Onedrive.
   + For those who want to run on PC, this is faster.
 + cons:
   + The split data is split by us in advanced with specified parameters(e.g, test_rate, random), the user cannot specify parameters when using this methods. But it sometimes could be a pros because novice can use the default data easily.
-  + Occupy some storage locally.
+  + Occupy some local storage.
 
-make:
+`make_xxx`:
 
 + pros: 
   + Allow client to specify some parameters when spliting data, more flexible for experienced users.
