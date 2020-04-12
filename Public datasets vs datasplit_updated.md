@@ -26,14 +26,22 @@
 
 
 ### Two popular session-based recommendation datasets
-| Datasets                        | Sessions | Items | Testing split               |
-| ------------------------------- | -------- | ----- | --------------------------- |
-| RecSys’15 Challenge (Yoochoose) | 7981580  | 37483 | subsequent day for testing  |
-| CIKM Cup 2016 (Diginetica)      | 204771   | 43097 | subsequent week for testing |
+| Datasets                                                     | Sessions | Items | Testing split               |
+| ------------------------------------------------------------ | -------- | ----- | --------------------------- |
+| RecSys’15 Challenge ([Yoochoose](https://2015.recsyschallenge.com/challenge.html)) | 7981580  | 37483 | subsequent day for testing  |
+| CIKM Cup 2016 ([Diginetica](https://cikm2016.cs.iupui.edu/cikm-cup/)) | 204771   | 43097 | subsequent week for testing |
 
 Out-of our scope
 
 > All the session-based recommendation datasets are based on temporal spit.
+
+### Sequential recommendation datasets
+| Datasets                                                     | Users | Items | Interactions | Other Information |
+| ------------------------------------------------------------ | -------- | ----- | --------------------------- | --------------------------- |
+| [Taobao](https://tianchi.aliyun.com/dataset/dataDetail?dataId=649) | 987,994  | 4,162,024 | 100,150,807  | categories, behavior types, timestamp |
+| [Ali-mobile](https://tianchi.aliyun.com/dataset/dataDetail?dataId=46) | 10,000 | 2,876,947 | 12,256,906 | categories, behavior types, timestamp |
+| [Retailrocket](https://www.kaggle.com/retailrocket/ecommerce-dataset#events.csv) | 1,407,580 | 235,061 | 2,756,101 | categories, behavior types, timestamp |
+
 
 Literature review on data splitting
 
