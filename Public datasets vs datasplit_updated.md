@@ -23,7 +23,8 @@
 | [Pinterest](https://data.mendeley.com/datasets/fs4k2zc5j5/3) |     :heavy_check_mark:      |   :heavy_check_mark:   |   :heavy_check_mark:    |     :heavy_check_mark:      |     :heavy_multiplication_x:     |     :heavy_multiplication_x:     | N/A                                                     |
 | [citeulike-t](https://github.com/changun/CollMetric/tree/master/citeulike-t) |     :heavy_check_mark:      |   :heavy_check_mark:   |   :heavy_check_mark:    |     :heavy_check_mark:      |     :heavy_multiplication_x:     |     :heavy_multiplication_x:     | N/A                                                     |
 |          [HetRec](http://ir.ii.uam.es/hetrec2011/)           |     :heavy_check_mark:      |   :heavy_check_mark:   |   :heavy_check_mark:    |     :heavy_check_mark:      |     :heavy_multiplication_x:     |     :heavy_multiplication_x:     | N/A                                                     |
-|          [Yelp](https://www.yelp.com/dataset)           |     :heavy_check_mark:      |    :heavy_multiplication_x:  |   :heavy_check_mark:    |     :heavy_check_mark:      |     :heavy_check_mark:      |     :heavy_multiplication_x:     | N/A   
+|          [Yelp](https://www.yelp.com/dataset)           |     :heavy_check_mark:      |    :heavy_multiplication_x:  |   :heavy_check_mark:    |     :heavy_check_mark:      |     :heavy_check_mark:      |     :heavy_multiplication_x:     | N/A  
+|          [Gowalla](https://snap.stanford.edu/data/loc-Gowalla.html)           |     :heavy_check_mark:      |    :heavy_multiplication_x:  |   :heavy_check_mark:    |     :heavy_multiplication_x:      |     social      |     :heavy_multiplication_x:     | N/A 
 
 ### Two popular session-based recommendation datasets
 | Datasets                        | Sessions | Items | Testing split               |
