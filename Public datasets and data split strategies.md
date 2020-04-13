@@ -1,15 +1,8 @@
 # Datasets
 
 > ### Public datasets
->
 
-> If there is a **Standard Splitting** for the dataset?
->
-> Which datasets are able to use the temporal splitting?
-> s
->
-
-|                         **Dataset**                          | **Interactions** | **Baskets** | **Temporal** | **Item Feature** | **User Feature** | **Store/Center** | **Standard Splitting**                                  |
+|   **Dataset**   | **Interactions** | **Baskets** | **Temporal** | **Item Feature** | **User Feature** | **Store/Center** | **Standard Splitting**                                  |
 | :----------------------------------------------------------: | :--------------: | :---------: | :----------: | :--------------: | :--------------: | :--------------: | ------------------------------------------------------- |
 | [MovieLens-100K](https://grouplens.org/datasets/movielens/100k/) |     :heavy_check_mark:      |  :heavy_multiplication_x:   |   :heavy_check_mark:    |     :heavy_check_mark:      |     :heavy_check_mark:      |     :heavy_multiplication_x:     | 5 fold cross validation (users) & Leave-(10 rating)-out |
 | [MovieLens-1M](https://grouplens.org/datasets/movielens/1m/) |     :heavy_check_mark:      |  :heavy_multiplication_x:   |   :heavy_check_mark:    |     :heavy_check_mark:      |     :heavy_check_mark:      |     :heavy_multiplication_x:     | N/A                                                     |
