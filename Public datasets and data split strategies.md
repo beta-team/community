@@ -16,9 +16,9 @@
 | [citeulike-a](https://github.com/js05212/citeulike-a)     |     :heavy_check_mark:      |   :heavy_check_mark:   |   :heavy_check_mark:    |     :heavy_check_mark:      |     :heavy_multiplication_x:     |     :heavy_multiplication_x:     | N/A                                                     |
 | [Pinterest](https://data.mendeley.com/datasets/fs4k2zc5j5/3) |     :heavy_check_mark:      |   :heavy_check_mark:   |   :heavy_check_mark:    |     :heavy_check_mark:      |     :heavy_multiplication_x:     |     :heavy_multiplication_x:     | N/A                                                     |
 | [citeulike-t](https://github.com/changun/CollMetric/tree/master/citeulike-t) |     :heavy_check_mark:      |   :heavy_check_mark:   |   :heavy_check_mark:    |     :heavy_check_mark:      |     :heavy_multiplication_x:     |     :heavy_multiplication_x:     | N/A                                                     |
-| [HetRec](http://ir.ii.uam.es/hetrec2011/)           |     :heavy_check_mark:      |   :heavy_check_mark:   |   :heavy_check_mark:    |     :heavy_check_mark:      |     :heavy_multiplication_x:     |     :heavy_multiplication_x:     | N/A                                                     |
-| [Yelp](https://www.yelp.com/dataset)|     :heavy_check_mark:      |    :heavy_multiplication_x:  |   :heavy_check_mark:    |     :heavy_check_mark:      |     :heavy_check_mark:      |     :heavy_multiplication_x:     | N/A  
-| [Gowalla](https://snap.stanford.edu/data/loc-Gowalla.html)           |     :heavy_check_mark:      |    :heavy_multiplication_x:  |   :heavy_check_mark:    |     :heavy_multiplication_x:      |     social      |     :heavy_multiplication_x:     | N/A 
+| [HetRec](http://ir.ii.uam.es/hetrec2011/)           |     :heavy_check_mark:      |   :heavy_check_mark:   |   :heavy_check_mark:    |     :heavy_check_mark:      |     :heavy_multiplication_x:     |     :heavy_multiplication_x:     | N/A                                      |
+| [Yelp](https://www.yelp.com/dataset)|     :heavy_check_mark:      |    :heavy_multiplication_x:  |   :heavy_check_mark:    |     :heavy_check_mark:      |     :heavy_check_mark:      |     :heavy_multiplication_x:     | N/A|
+| [Gowalla](https://snap.stanford.edu/data/loc-Gowalla.html)           |     :heavy_check_mark:      |    :heavy_multiplication_x:  |   :heavy_check_mark:    |     :heavy_multiplication_x:      |     social      |     :heavy_multiplication_x:     | N/A |
 
 ### Two popular session-based recommendation datasets
 | Datasets                                                     | Sessions | Items | Testing split               |
@@ -38,7 +38,7 @@ Out-of our scope
 | [Retailrocket](https://www.kaggle.com/retailrocket/ecommerce-dataset#events.csv) | 1,407,580 | 235,061 | 2,756,101 | categories, behavior types, timestamp |
 
 
-Literature review on data splitting
+### Literature review on data splitting
 
 |        Paper        | Leave-one (item)-out | Leave-one (basket/session)-out | Personalized Temporal Split | Global Temporal Split | User Split |
 | :-----------------: | :------------------: | :----------------------------: | :-------------------------: | :-------------------: | ---------- |
@@ -52,3 +52,7 @@ Literature review on data splitting
 |   KGAT (KDD 2019)   |       :heavy_multiplication_x:       |            :heavy_multiplication_x:            |           :heavy_check_mark:           |       :heavy_multiplication_x:        | :heavy_multiplication_x:   |
 | HierTCN (CIKM 2019) |       :heavy_multiplication_x:       |            :heavy_multiplication_x:            |          :heavy_multiplication_x:           |        :heavy_check_mark:        | :heavy_check_mark:    |
 | JTM (NeurIPS 2019)  |       :heavy_multiplication_x:       |            :heavy_multiplication_x:            |          :heavy_multiplication_x:           |       :heavy_multiplication_x:        | :heavy_check_mark:    |
+| [GRU4Rec](https://arxiv.org/pdf/1511.06939.pdf) (ICLR 2016) |       :heavy_multiplication_x:       |            :heavy_multiplication_x:            |          :heavy_multiplication_x:           |       :heavy_check_mark:        | :heavy_multiplication_x:    |
+| [NARM](https://dl.acm.org/doi/pdf/10.1145/3132847.3132926) (CIKM 2017) |       :heavy_multiplication_x:       |            :heavy_multiplication_x:            |          :heavy_multiplication_x:           |       :heavy_check_mark:        | :heavy_multiplication_x:    |
+| [SASRec](https://arxiv.org/pdf/1808.09781.pdf) (ICDM 2018)  |       :heavy_multiplication_x:       |            :heavy_multiplication_x:            |          :heavy_multiplication_x:           |       :heavy_check_mark:        | :heavy_multiplication_x:    |
+
