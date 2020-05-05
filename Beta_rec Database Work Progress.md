@@ -14,9 +14,15 @@ UploadToOneDrive: @Yucheng Liang
 | [Tafeng](https://www.kaggle.com/chiranjivdas09/ta-feng-grocery-dataset) | :heavy_check_mark: |  :heavy_check_mark:  | :heavy_check_mark: |
 | [Dunnhumby](https://www.kaggle.com/frtgnn/dunnhumby-the-complete-journey) | :heavy_check_mark: |  :heavy_check_mark:  | :heavy_check_mark: |
 | [Instacart](https://www.instacart.com/datasets/grocery-shopping-2017) | :heavy_check_mark: |                      |                    |
-|    [citeulike-a](https://github.com/js05212/citeulike-a)     |                    |                      |                    |
+|    [citeulike-a](https://github.com/js05212/citeulike-a)     | :heavy_check_mark: |                      |                    |
 | [Pinterest](https://data.mendeley.com/datasets/fs4k2zc5j5/3) |                    |                      |                    |
-| [citeulike-t](https://github.com/changun/CollMetric/tree/master/citeulike-t) |                    |                      |                    |
+| [citeulike-t](https://github.com/changun/CollMetric/tree/master/citeulike-t) | :heavy_check_mark: |                      |                    |
 |          [HetRec](http://ir.ii.uam.es/hetrec2011/)           | :heavy_check_mark: |                      |                    |
-|             [Yelp](https://www.yelp.com/dataset)             |                    |                      |                    |
-|  [Gowalla](https://snap.stanford.edu/data/loc-Gowalla.html)  |                    |                      |                    |
+|             [Yelp](https://www.yelp.com/dataset)             | :heavy_check_mark: |                      |                    |
+|  [Gowalla](https://snap.stanford.edu/data/loc-Gowalla.html)  | :heavy_check_mark: |                      |                    |
+| [Yoochoose](https://2015.recsyschallenge.com/challenge.html) | :heavy_check_mark: |                      |                    |
+|    [Diginetica](https://cikm2016.cs.iupui.edu/cikm-cup/)     | :heavy_check_mark: |                      |                    |
+| [Taobao](https://tianchi.aliyun.com/dataset/dataDetail?dataId=649) | :heavy_check_mark: |                      |                    |
+| [Ali-mobile](https://tianchi.aliyun.com/dataset/dataDetail?dataId=46) | :heavy_check_mark: |                      |                    |
+| [Retailrocket](https://www.kaggle.com/retailrocket/ecommerce-dataset#events.csv) | :heavy_check_mark: |                      |                    |
+
