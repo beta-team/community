@@ -13,7 +13,7 @@ UploadToOneDrive: @Yucheng Liang
 | [Epinions](http://www.trustlet.org/downloaded_epinions.html) | :heavy_check_mark: |  :heavy_check_mark:  | :heavy_check_mark: |
 | [Tafeng](https://www.kaggle.com/chiranjivdas09/ta-feng-grocery-dataset) | :heavy_check_mark: |  :heavy_check_mark:  | :heavy_check_mark: |
 | [Dunnhumby](https://www.kaggle.com/frtgnn/dunnhumby-the-complete-journey) | :heavy_check_mark: |  :heavy_check_mark:  | :heavy_check_mark: |
-| [Instacart](https://www.instacart.com/datasets/grocery-shopping-2017) | :heavy_check_mark: |                      |                    |
+| [Instacart](https://www.instacart.com/datasets/grocery-shopping-2017) | :heavy_check_mark: |  :heavy_check_mark:  | :heavy_check_mark: |
 |    [citeulike-a](https://github.com/js05212/citeulike-a)     | :heavy_check_mark: |                      |                    |
 | [Pinterest](https://data.mendeley.com/datasets/fs4k2zc5j5/3) |                    |                      |                    |
 | [citeulike-t](https://github.com/changun/CollMetric/tree/master/citeulike-t) | :heavy_check_mark: |                      |                    |
