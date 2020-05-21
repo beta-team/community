@@ -10,7 +10,11 @@ BETA-Recsys provides users a wide range of datasets for recommendation system tr
 
 ---
 
-## Usage
+## Dataset Statistics
+
+---
+
+## Dataset Usage
 
 ### Download Data
 
@@ -26,7 +30,7 @@ movielens_1m = Movielens_1m()
 movielens_1m.download()
 ```
 
-However, not every dataset could be downloaded directly with our framework. For some datasets, you will still have to download them manually. And we will provide tips about how to download and where you should put the files.
+However, not every dataset could be downloaded directly with our framework. **For some datasets, you will still have to download them manually. You are supposed to follow our tips to download and put the dataset in the correct folder in order to be detected by our framework.** 
 
 ### Load Data
 
@@ -48,6 +52,22 @@ Due to storage limitation, we only store a copy of split data with default param
 ### Make Data
 
 Users can simply ignore these functions because when you use custom parameters in `load` functions, it will automatically call `make` functions. So you don't need to care about this functions. **We strongly recommend you to use `load` function directly in most of you time.**
+
+## Data Split
+
+For users who are willing to split some datasets that is not covered by our framework, we still provide various methods to make it easy to split huge data, without caring the details. There are 6 main methods for users to split data.
+
+#### random_split
+
+#### random_basket_split
+
+#### leave_one_out
+
+#### leave_one_basket
+
+#### temporal_split
+
+#### temporal_basket_split
 
 ## More
 
