@@ -1,10 +1,10 @@
-# How to use our datasets?
+# Dataset Base Class Design Doc
 
 **Author: Yucheng Liang**
 
 **Last Updated Time: 2020-04-08**
 
-This document illustrates the usage of our dataset from the view of client.
+This document illustrates the overview design of our dataset base class.
 
 ## Glossary
 

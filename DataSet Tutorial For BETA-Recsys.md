@@ -2,7 +2,7 @@
 
 **Author: **Yucheng Liang
 
-**Last Update Time: **2020-05-09
+**Last Update Time: **2020-05-29
 
 ## Introduction
 
@@ -11,6 +11,90 @@ BETA-Recsys provides users a wide range of datasets for recommendation system tr
 ---
 
 ## Dataset Statistics
+
+Here we present some basic staticstics for the datasets in our framework.
+
+|                         **Dataset**                          | **Interactions** | **Baskets** | **Temporal** |
+| :----------------------------------------------------------: | :--------------: | :---------: | :----------: |
+| [MovieLens-100K](https://grouplens.org/datasets/movielens/100k/) |        ✔️         |      ✖️      |      ✔️       |
+| [MovieLens-1M](https://grouplens.org/datasets/movielens/1m/) |        ✔️         |      ✖️      |      ✔️       |
+| [MovieLens-25M](https://grouplens.org/datasets/movielens/25m/) |        ✔️         |      ✖️      |      ✔️       |
+|    [Last.FM](https://grouplens.org/datasets/hetrec-2011/)    |        ✔️         |      ✖️      |      ✖️       |
+| [Epinions](http://www.trustlet.org/downloaded_epinions.html) |        ✔️         |      ✖️      |      ✖️       |
+| [Tafeng](https://www.kaggle.com/chiranjivdas09/ta-feng-grocery-dataset/) |        ✔️         |      ✖️      |      ✔️       |
+| [Dunnhumby](https://www.kaggle.com/frtgnn/dunnhumby-the-complete-journey) |        ✔️         |      ✔️      |      ✔️       |
+| [Instacart](https://www.instacart.com/datasets/grocery-shopping-2017) |        ✔️         |      ✖️      |      ✔️       |
+|    [citeulike-a](https://github.com/js05212/citeulike-a)     |        ✔️         |      ✖️      |      ✖️       |
+| [citeulike-t](https://github.com/changun/CollMetric/tree/master/citeulike-t) |        ✔️         |      ✖️      |      ✖️       |
+|     [HetRec](http://ir.ii.uam.es/hetrec2011/) MoiveLens      |        ✔️         |      ✖️      |      ✔️       |
+|     [HetRec](http://ir.ii.uam.es/hetrec2011/) Delicious      |        ✔️         |      ✔️      |      ✖️       |
+|       [HetRec](http://ir.ii.uam.es/hetrec2011/) LastFM       |        ✔️         |      ✔️      |      ✔️       |
+|             [Yelp](https://www.yelp.com/dataset)             |        ✔️         |      ✖️      |      ✔️       |
+|  [Gowalla](https://snap.stanford.edu/data/loc-Gowalla.html)  |        ✔️         |      ✖️      |      ✔️       |
+| [Yoochoose](https://2015.recsyschallenge.com/challenge.html) |                  |             |              |
+|    [Diginetica](https://cikm2016.cs.iupui.edu/cikm-cup/)     |                  |             |              |
+| [Taobao](https://tianchi.aliyun.com/dataset/dataDetail?dataId=649) |                  |             |              |
+| [Ali-mobile](https://tianchi.aliyun.com/dataset/dataDetail?dataId=46) |                  |             |              |
+| [Retailrocket](https://www.kaggle.com/retailrocket/ecommerce-dataset#events.csv) |                  |             |              |
+
+Because some split methods require a specific features, like `random_basket` expect the dataset has a **Basket** column. Here we list all the split methods for each dataset.
+
+The prerequisite for each split methods are:
+
++ `leave_one_out`: none
++ `leave_one_basket`: require a **Basket** column in dataset
++ `random`: none
++ `random_basket`: require a **Basket** column in dataset
++ `temporal`: require a **Timestamp(Temporal)** column in dataset
++ `temporal_basket`: require a **Timestamp(Temporal)** and a **Basket** column in dataset
+
+|                         **Dataset**                          | **leave_one_out** | **leave_one_basket** | **random** | **random_basket** | **temporal** | temporal_basket |
+| :----------------------------------------------------------: | :---------------: | :------------------: | :--------: | :---------------: | :----------: | :-------------: |
+| [MovieLens-100K](https://grouplens.org/datasets/movielens/100k/) |         ✔️         |          ✖️           |     ✔️      |         ✖️         |      ✔️       |        ✖️        |
+| [MovieLens-1M](https://grouplens.org/datasets/movielens/1m/) |         ✔️         |          ✖️           |     ✔️      |         ✖️         |      ✔️       |        ✖️        |
+| [MovieLens-25M](https://grouplens.org/datasets/movielens/25m/) |         ✔️         |          ✖️           |     ✔️      |                   |              |                 |
+|    [Last.FM](https://grouplens.org/datasets/hetrec-2011/)    |         ✔️         |          ✖️           |     ✔️      |         ✖️         |      ✖️       |        ✖️        |
+| [Epinions](http://www.trustlet.org/downloaded_epinions.html) |         ✔️         |          ✖️           |     ✔️      |         ✖️         |      ✖️       |        ✖️        |
+| [Tafeng](https://www.kaggle.com/chiranjivdas09/ta-feng-grocery-dataset/) |         ✔️         |          ✖️           |     ✔️      |         ✖️         |      ✔️       |        ✖️        |
+| [Dunnhumby](https://www.kaggle.com/frtgnn/dunnhumby-the-complete-journey) |         ✔️         |          ✔️           |     ✔️      |         ✔️         |      ✔️       |        ✔️        |
+| [Instacart](https://www.instacart.com/datasets/grocery-shopping-2017) |         ✔️         |          ✖️           |     ✔️      |         ✖️         |      ✔️       |        ✖️        |
+|    [citeulike-a](https://github.com/js05212/citeulike-a)     |         ✔️         |          ✖️           |     ✔️      |         ✖️         |      ✖️       |        ✖️        |
+| [citeulike-t](https://github.com/changun/CollMetric/tree/master/citeulike-t) |         ✔️         |          ✖️           |     ✔️      |         ✖️         |      ✖️       |        ✖️        |
+|     [HetRec](http://ir.ii.uam.es/hetrec2011/) MoiveLens      |         ✔️         |          ✖️           |     ✔️      |         ✖️         |      ✔️       |        ✖️        |
+|     [HetRec](http://ir.ii.uam.es/hetrec2011/) Delicious      |         ✔️         |          ✔️           |     ✔️      |         ✖️         |      ✖️       |        ✖️        |
+|       [HetRec](http://ir.ii.uam.es/hetrec2011/) LastFM       |         ✔️         |          ✔️           |     ✔️      |         ✔️         |      ✔️       |        ✔️        |
+|             [Yelp](https://www.yelp.com/dataset)             |         ✔️         |          ✖️           |     ✔️      |                   |              |                 |
+|  [Gowalla](https://snap.stanford.edu/data/loc-Gowalla.html)  |         ✔️         |          ✖️           |     ✔️      |         ✖️         |      ✖️       |        ✖️        |
+| [Yoochoose](https://2015.recsyschallenge.com/challenge.html) |         ✔️         |                      |     ✔️      |                   |              |                 |
+|    [Diginetica](https://cikm2016.cs.iupui.edu/cikm-cup/)     |         ✔️         |                      |     ✔️      |                   |              |                 |
+| [Taobao](https://tianchi.aliyun.com/dataset/dataDetail?dataId=649) |         ✔️         |                      |     ✔️      |                   |              |                 |
+| [Ali-mobile](https://tianchi.aliyun.com/dataset/dataDetail?dataId=46) |         ✔️         |                      |     ✔️      |                   |              |                 |
+| [Retailrocket](https://www.kaggle.com/retailrocket/ecommerce-dataset#events.csv) |         ✔️         |                      |     ✔️      |                   |              |                 |
+
+Also, we provide some information about the dataset content such as the number of items, users and so on. This may give you a brief view of the dataset.
+
+|                         **Dataset**                          | User | **Item** | Timestamp | **Rating** |
+| :----------------------------------------------------------: | :--: | :------: | :-------: | ---------- |
+| [MovieLens-100K](https://grouplens.org/datasets/movielens/100k/) |      |          |           |            |
+| [MovieLens-1M](https://grouplens.org/datasets/movielens/1m/) |      |          |           |            |
+| [MovieLens-25M](https://grouplens.org/datasets/movielens/25m/) |      |          |           |            |
+|    [Last.FM](https://grouplens.org/datasets/hetrec-2011/)    |      |          |           |            |
+| [Epinions](http://www.trustlet.org/downloaded_epinions.html) |      |          |           |            |
+| [Tafeng](https://www.kaggle.com/chiranjivdas09/ta-feng-grocery-dataset/) |      |          |           |            |
+| [Dunnhumby](https://www.kaggle.com/frtgnn/dunnhumby-the-complete-journey) |      |          |           |            |
+| [Instacart](https://www.instacart.com/datasets/grocery-shopping-2017) |      |          |           |            |
+|    [citeulike-a](https://github.com/js05212/citeulike-a)     |      |          |           |            |
+| [citeulike-t](https://github.com/changun/CollMetric/tree/master/citeulike-t) |      |          |           |            |
+|     [HetRec](http://ir.ii.uam.es/hetrec2011/) MoiveLens      |      |          |           |            |
+|     [HetRec](http://ir.ii.uam.es/hetrec2011/) Delicious      |      |          |           |            |
+|       [HetRec](http://ir.ii.uam.es/hetrec2011/) LastFM       |      |          |           |            |
+|             [Yelp](https://www.yelp.com/dataset)             |      |          |           |            |
+|  [Gowalla](https://snap.stanford.edu/data/loc-Gowalla.html)  |      |          |           |            |
+| [Yoochoose](https://2015.recsyschallenge.com/challenge.html) |      |          |           |            |
+|    [Diginetica](https://cikm2016.cs.iupui.edu/cikm-cup/)     |      |          |           |            |
+| [Taobao](https://tianchi.aliyun.com/dataset/dataDetail?dataId=649) |      |          |           |            |
+| [Ali-mobile](https://tianchi.aliyun.com/dataset/dataDetail?dataId=46) |      |          |           |            |
+| [Retailrocket](https://www.kaggle.com/retailrocket/ecommerce-dataset#events.csv) |      |          |           |            |
 
 ---
 
@@ -53,22 +137,36 @@ Due to storage limitation, we only store a copy of split data with default param
 
 Users can simply ignore these functions because when you use custom parameters in `load` functions, it will automatically call `make` functions. So you don't need to care about this functions. **We strongly recommend you to use `load` function directly in most of you time.**
 
+---
+
 ## Data Split
 
 For users who are willing to split some datasets that is not covered by our framework, we still provide various methods to make it easy to split huge data, without caring the details. There are 6 main methods for users to split data.
 
-#### random_split
+### random_split
 
-#### random_basket_split
+This method will select a portion of records based on the given `test_rate` randomly.
 
-#### leave_one_out
+### random_basket_split
 
-#### leave_one_basket
+This method will select a portion of baskets(one basket may cover more than one record) based on the given `test_rate` randomly.
 
-#### temporal_split
+### leave_one_out
 
-#### temporal_basket_split
+This method will first rank all the records by time (if a timestamp column is provided), and then select the last record.
+
+### leave_one_basket
+
+This method will first rank all the records by time (if a timestamp column is provided), and then select the last basket.
+
+### temporal_split
+
+This method will first rank all the records by time (if a timestamp column is provided), and then select the last portion of records.
+
+### temporal_basket_split
+
+This method will first rank all the records by time (if a timestamp column is provided), and then select the last portion of baskets.
 
 ## More
 
-For any quesitons, please tell us by **creating an issue**. We will try to respond it as soon as possible.
+For any quesitons, please tell us by **creating an issue** or contact us by sending an email to recsys.beta@gmail.com. We will try to respond it as soon as possible.
