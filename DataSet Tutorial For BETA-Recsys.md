@@ -73,28 +73,28 @@ The prerequisite for each split methods are:
 
 Also, we provide some information about the dataset content such as the number of items, users and so on. This may give you a brief view of the dataset.
 
-|                         **Dataset**                          | User | **Item** | Timestamp | **Rating** |
-| :----------------------------------------------------------: | :--: | :------: | :-------: | ---------- |
-| [MovieLens-100K](https://grouplens.org/datasets/movielens/100k/) |      |          |           |            |
-| [MovieLens-1M](https://grouplens.org/datasets/movielens/1m/) |      |          |           |            |
-| [MovieLens-25M](https://grouplens.org/datasets/movielens/25m/) |      |          |           |            |
-|    [Last.FM](https://grouplens.org/datasets/hetrec-2011/)    |      |          |           |            |
-| [Epinions](http://www.trustlet.org/downloaded_epinions.html) |      |          |           |            |
-| [Tafeng](https://www.kaggle.com/chiranjivdas09/ta-feng-grocery-dataset/) |      |          |           |            |
-| [Dunnhumby](https://www.kaggle.com/frtgnn/dunnhumby-the-complete-journey) |      |          |           |            |
-| [Instacart](https://www.instacart.com/datasets/grocery-shopping-2017) |      |          |           |            |
-|    [citeulike-a](https://github.com/js05212/citeulike-a)     |      |          |           |            |
-| [citeulike-t](https://github.com/changun/CollMetric/tree/master/citeulike-t) |      |          |           |            |
-|     [HetRec](http://ir.ii.uam.es/hetrec2011/) MoiveLens      |      |          |           |            |
-|     [HetRec](http://ir.ii.uam.es/hetrec2011/) Delicious      |      |          |           |            |
-|       [HetRec](http://ir.ii.uam.es/hetrec2011/) LastFM       |      |          |           |            |
-|             [Yelp](https://www.yelp.com/dataset)             |      |          |           |            |
-|  [Gowalla](https://snap.stanford.edu/data/loc-Gowalla.html)  |      |          |           |            |
-| [Yoochoose](https://2015.recsyschallenge.com/challenge.html) |      |          |           |            |
-|    [Diginetica](https://cikm2016.cs.iupui.edu/cikm-cup/)     |      |          |           |            |
-| [Taobao](https://tianchi.aliyun.com/dataset/dataDetail?dataId=649) |      |          |           |            |
-| [Ali-mobile](https://tianchi.aliyun.com/dataset/dataDetail?dataId=46) |      |          |           |            |
-| [Retailrocket](https://www.kaggle.com/retailrocket/ecommerce-dataset#events.csv) |      |          |           |            |
+|                         **Dataset**                          | User/unique | **Item/unique** | Timestamp/unique | **Rating**/unique |
+| :----------------------------------------------------------: | :---------: | :-------------: | :--------------: | ----------------- |
+| [MovieLens-100K](https://grouplens.org/datasets/movielens/100k/) |             |                 |                  |                   |
+| [MovieLens-1M](https://grouplens.org/datasets/movielens/1m/) |             |                 |                  |                   |
+| [MovieLens-25M](https://grouplens.org/datasets/movielens/25m/) |             |                 |                  |                   |
+|    [Last.FM](https://grouplens.org/datasets/hetrec-2011/)    |             |                 |                  |                   |
+| [Epinions](http://www.trustlet.org/downloaded_epinions.html) |             |                 |                  |                   |
+| [Tafeng](https://www.kaggle.com/chiranjivdas09/ta-feng-grocery-dataset/) |             |                 |                  |                   |
+| [Dunnhumby](https://www.kaggle.com/frtgnn/dunnhumby-the-complete-journey) |             |                 |                  |                   |
+| [Instacart](https://www.instacart.com/datasets/grocery-shopping-2017) |             |                 |                  |                   |
+|    [citeulike-a](https://github.com/js05212/citeulike-a)     |             |                 |                  |                   |
+| [citeulike-t](https://github.com/changun/CollMetric/tree/master/citeulike-t) |             |                 |                  |                   |
+|     [HetRec](http://ir.ii.uam.es/hetrec2011/) MoiveLens      |             |                 |                  |                   |
+|     [HetRec](http://ir.ii.uam.es/hetrec2011/) Delicious      |             |                 |                  |                   |
+|       [HetRec](http://ir.ii.uam.es/hetrec2011/) LastFM       |             |                 |                  |                   |
+|             [Yelp](https://www.yelp.com/dataset)             |             |                 |                  |                   |
+|  [Gowalla](https://snap.stanford.edu/data/loc-Gowalla.html)  |             |                 |                  |                   |
+| [Yoochoose](https://2015.recsyschallenge.com/challenge.html) |             |                 |                  |                   |
+|    [Diginetica](https://cikm2016.cs.iupui.edu/cikm-cup/)     |             |                 |                  |                   |
+| [Taobao](https://tianchi.aliyun.com/dataset/dataDetail?dataId=649) |             |                 |                  |                   |
+| [Ali-mobile](https://tianchi.aliyun.com/dataset/dataDetail?dataId=46) |             |                 |                  |                   |
+| [Retailrocket](https://www.kaggle.com/retailrocket/ecommerce-dataset#events.csv) |             |                 |                  |                   |
 
 ---
 
