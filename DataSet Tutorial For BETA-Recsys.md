@@ -73,28 +73,28 @@ The prerequisite for each split methods are:
 
 Also, we provide some information about the dataset content such as the number of items, users and so on. This may give you a brief view of the dataset.
 
-|                         **Dataset**                          | User/unique | **Item/unique** | Timestamp/unique | **Rating**/unique |
-| :----------------------------------------------------------: | :---------: | :-------------: | :--------------: | ----------------- |
-| [MovieLens-100K](https://grouplens.org/datasets/movielens/100k/) |             |                 |                  |                   |
-| [MovieLens-1M](https://grouplens.org/datasets/movielens/1m/) |             |                 |                  |                   |
-| [MovieLens-25M](https://grouplens.org/datasets/movielens/25m/) |             |                 |                  |                   |
-|    [Last.FM](https://grouplens.org/datasets/hetrec-2011/)    |             |                 |                  |                   |
-| [Epinions](http://www.trustlet.org/downloaded_epinions.html) |             |                 |                  |                   |
-| [Tafeng](https://www.kaggle.com/chiranjivdas09/ta-feng-grocery-dataset/) |             |                 |                  |                   |
-| [Dunnhumby](https://www.kaggle.com/frtgnn/dunnhumby-the-complete-journey) |             |                 |                  |                   |
-| [Instacart](https://www.instacart.com/datasets/grocery-shopping-2017) |             |                 |                  |                   |
-|    [citeulike-a](https://github.com/js05212/citeulike-a)     |             |                 |                  |                   |
-| [citeulike-t](https://github.com/changun/CollMetric/tree/master/citeulike-t) |             |                 |                  |                   |
-|     [HetRec](http://ir.ii.uam.es/hetrec2011/) MoiveLens      |             |                 |                  |                   |
-|     [HetRec](http://ir.ii.uam.es/hetrec2011/) Delicious      |             |                 |                  |                   |
-|       [HetRec](http://ir.ii.uam.es/hetrec2011/) LastFM       |             |                 |                  |                   |
-|             [Yelp](https://www.yelp.com/dataset)             |             |                 |                  |                   |
-|  [Gowalla](https://snap.stanford.edu/data/loc-Gowalla.html)  |             |                 |                  |                   |
-| [Yoochoose](https://2015.recsyschallenge.com/challenge.html) |             |                 |                  |                   |
-|    [Diginetica](https://cikm2016.cs.iupui.edu/cikm-cup/)     |             |                 |                  |                   |
-| [Taobao](https://tianchi.aliyun.com/dataset/dataDetail?dataId=649) |             |                 |                  |                   |
-| [Ali-mobile](https://tianchi.aliyun.com/dataset/dataDetail?dataId=46) |             |                 |                  |                   |
-| [Retailrocket](https://www.kaggle.com/retailrocket/ecommerce-dataset#events.csv) |             |                 |                  |                   |
+|                         **Dataset**                          |   User/unique   | **Item/unique**  | Rating/unique | **Timestamp**/unique |
+| :----------------------------------------------------------: | :-------------: | :--------------: | :-----------: | -------------------- |
+| [MovieLens-100K](https://grouplens.org/datasets/movielens/100k/) |   100000/943    |   100000/1682    |   100000/5    | 100000/49282         |
+| [MovieLens-1M](https://grouplens.org/datasets/movielens/1m/) |  1000209/6040   |   1000209/3706   |   1000209/5   | 1000209/458455       |
+| [MovieLens-25M](https://grouplens.org/datasets/movielens/25m/) | 25000095/162541 |  25000095/59047  |  25000095/10  | 25000095/20115267    |
+|    [Last.FM](https://grouplens.org/datasets/hetrec-2011/)    |   92834/1892    |   92834/17632    |  92834/5436   | 92834/1              |
+| [Epinions](http://www.trustlet.org/downloaded_epinions.html) |  664825/40163   |  664825/139738   |   664825/5    | 664825/1             |
+| [Tafeng](https://www.kaggle.com/chiranjivdas09/ta-feng-grocery-dataset/) |                 |                  |               |                      |
+| [Dunnhumby](https://www.kaggle.com/frtgnn/dunnhumby-the-complete-journey) |     500/28      |     500/463      |     500/1     | N/A                  |
+| [Instacart](https://www.instacart.com/datasets/grocery-shopping-2017) | 33819106/206209 |  33819106/49685  |  33819106/1   | 33819106/3346083     |
+|    [citeulike-a](https://github.com/js05212/citeulike-a)     |   204986/240    |   204986/16980   |   204986/1    | 204986/1             |
+| [citeulike-t](https://github.com/changun/CollMetric/tree/master/citeulike-t) |   134860/216    |   134860/25584   |   134860/1    | 134860/1             |
+|     [HetRec](http://ir.ii.uam.es/hetrec2011/) MoiveLens      |   855598/2113   |   855598/10109   |   855598/10   | 855598/809328        |
+|     [HetRec](http://ir.ii.uam.es/hetrec2011/) Delicious      |   437593/1867   |   437593/69223   |   437593/1    | 437593/104093        |
+|       [HetRec](http://ir.ii.uam.es/hetrec2011/) LastFM       |   186479/1892   |   186479/12523   |   186479/1    | 186479/9749          |
+|             [Yelp](https://www.yelp.com/dataset)             | 8021122/1968703 |  8021122/209393  |   8021122/5   | 8021122/7853102      |
+|  [Gowalla](https://snap.stanford.edu/data/loc-Gowalla.html)  | 6442892/107092  | 6442892/1280969  |   6442892/1   | 6442892/5561957      |
+| [Yoochoose](https://2015.recsyschallenge.com/challenge.html) | 1150753/509696  |   1150753/735    |   1150753/1   | 1150753/19949        |
+|    [Diginetica](https://cikm2016.cs.iupui.edu/cikm-cup/)     | 1235380/310324  |  1235380/122993  |   1235380/1   | 1235380/152          |
+| [Taobao](https://tianchi.aliyun.com/dataset/dataDetail?dataId=649) |  3835331/37376  |  3835331/930607  |   3835331/1   | 3835331/698889       |
+| [Ali-mobile](https://tianchi.aliyun.com/dataset/dataDetail?dataId=46) | 12256906/10000  | 12256906/2876947 |  12256906/1   | 12256906/1           |
+| [Retailrocket](https://www.kaggle.com/retailrocket/ecommerce-dataset#events.csv) | 2756101/1407580 |  2756101/235061  |   2756101/1   | 2756101/2749921      |
 
 ---
 
