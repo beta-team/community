@@ -16,7 +16,7 @@ Consequently, in this documentation, some rules are listed in order to keep deve
 
 ## Special Cases
 
-## 1. Indention 缩进问题
+### 1. Indention 缩进问题
 
 There should be **no space** between the first letter and the `"""` in the first line of comment. And the first character should **use uppercase**.
 
@@ -27,7 +27,7 @@ There should be **no space** between the first letter and the `"""` in the first
 | ![1591513795011](./img/docs/img1.png) | ![1591514054954](./img/docs/img2.png) |
 | ![1591513943295](./img/docs/img3.png) | ![1591514086911](./img/docs/img4.png) |
 
-## 2. 注释规范
+### 2. 注释规范
 
 正确例子：
 
@@ -41,19 +41,19 @@ There should be **no space** between the first letter and the `"""` in the first
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![1591516682450](./img/docs/img7.png) | ![1591516692503](./img/docs/img8.png) |
 
-## 3. 注释换行问题
+### 3. 注释换行问题
 
 | 代码编写                                                     | 显示                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![1591516116811](./img/docs/img9.png) | ![1591515840206](./img/docs/img10.png) |
 
-## 4. 小问题
+### 4. 小问题
 
 | 代码                                                         | 显示                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![1591516496649](./img/docs/img11.png) | ![1591516510170](./img/docs/img12.png) |
 
-## 5. 跳转到某个类的注释写法
+### 5. 跳转到某个类的注释写法
 
 ![1591520192198](./img/docs/img13.png)
 
@@ -65,16 +65,16 @@ Return type的指定:
 
 ![1591520271277](./img/docs/img16.png)
 
-## 6. 添加数学公式的方法
+### 6. 添加数学公式的方法
 
 ![1591520769559](./img/docs/img17.png)
 
-## 7. 添加例子说明
+### 7. 添加例子说明
 
 | 代码                                                         | 显示结果                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![1591520811620](./img/docs/img18.png) | ![1591520829207](./img/docs/img19.png) |
 
-## 8. 建议
+###8. 建议
 
 ![1591522096569](./img/docs/img20.png)
