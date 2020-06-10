@@ -22,6 +22,8 @@ In general, all our codes follow the [Google Python Style Guide](http://google.g
 
 ### Class
 
+### Example Description
+
 ------
 
 ## Special Cases
@@ -88,3 +90,11 @@ Return type的指定:
 ### 8. 建议
 
 ![1591522096569](./img/docs/img20.png)
+
+------
+
+## Action Item
+
+- [ ] Correct all typos in code, including code and comments.
+- [ ] Correct all naming that do not match the naming rules.
+- [ ] Format all comments, adding usage example, more informative description etc.
