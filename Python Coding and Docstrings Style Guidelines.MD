@@ -12,6 +12,11 @@ We use [Google style](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/exa
 - [Docstring with Google style](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html).
 - [Isort to sort imports alphabetically, and automatically separated into sections.](https://pypi.org/project/isort/)
 
-> If you are using Pycharm, it will be convenient to deploy **black** and **isort** commands as [External Tools](https://www.jetbrains.com/help/pycharm/configuring-third-party-tools.html).
+***** If you are using Pycharm, it will be convenient to deploy **black** and **isort** commands as [External Tools](https://www.jetbrains.com/help/pycharm/configuring-third-party-tools.html).
+***** Use the following args to make it [compatible](https://github.com/timothycrosley/isort/issues/694#issuecomment-564261886) with black. 
+```shell
+isort --multi-line=3 --trailing-comma --force-grid-wrap=0 --use-parentheses --line-width=88 [ file.py ]
+``` 
+
 
 
