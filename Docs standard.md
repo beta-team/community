@@ -59,9 +59,9 @@ class NoteDemo(object):
         self.array = init_array
 ```
 
-+ **Introduction** and **Summary**: The first line of comments should be introduction, which is ended with a period. And after a new line, you should write the details of this class, which is also ended with a period.
-+ **Note block**: If you want to note something or write some warnings, you should use the block.
-+ **Attributes**: All the class variables should be written here. So there is no need for you to write the arguments of `init` methods.
+- **Introduction** and **Summary**: The first line of comments should be introduction, which is ended with a period. And after a new line, you should write the details of this class, which is also ended with a period.
+- **Note block**: If you want to note something or write some warnings, you should use the block.
+- **Attributes**: All the class variables should be written here. So there is no need for you to write the arguments of `init` methods.
 
 ### Method
 
@@ -95,10 +95,10 @@ def return_function(self, param1, param2):
         pass
 ```
 
-+ **Introduction** and **Summary**: The first line of comments should be introduction, which is ended with a period. And after a new line, you should write the details of this method, which is also ended with a period.
-+ **Args**: You should detail each parameter here, writing their names, types and meaning.
-+ **Returns**: You should detail each return values here, writing their types and meaning. For more than one return value, please refer to next part.
-+ **Raise**: If this method raise any exception, you should write them in this part.
+- **Introduction** and **Summary**: The first line of comments should be introduction, which is ended with a period. And after a new line, you should write the details of this method, which is also ended with a period.
+- **Args**: You should detail each parameter here, writing their names, types and meaning.
+- **Returns**: You should detail each return values here, writing their types and meaning. For more than one return value, please refer to next part.
+- **Raise**: If this method raise any exception, you should write them in this part.
 
 ```python
 def yield_function(self, param1, param2):
@@ -131,7 +131,7 @@ Example:
 	... demo.return_function("Hello", true)
 ```
 
-+ If you want to give some example of how to use this method, this is a way for you to share.
+- If you want to give some example of how to use this method, this is a way for you to share.
 
 ### Math Block
 
@@ -140,9 +140,25 @@ Example:
 	a^{2} + b^{2} = c{^2}
 ```
 
-+ If the method have some mathematical background, you can use math block to provide some information.
+- If the method have some mathematical background, you can use math block to provide some information.
 
----
+### Jump to a class definition
+
+If you want to link a class to its definition in comments, you can write comments as the following:
+
+![1591520192198](/img/docs/img13.png)
+
+### Return Type
+
+There are many ways to write returns. Just choose one of them and clarify the values and types.
+
+![1591520240907](/img/docs/img14.png)
+
+![1591520255156](/img/docs/img15.png)
+
+![1591520271277]()
+
+------
 
 ## Format Check
 
@@ -150,68 +166,26 @@ As we want to provide a good documentation, we hope use some tools to maintain o
 
 ## Special Cases
 
+In this part, we try to collect 
+
 ### 1. Indention 缩进问题
 
 There should be **no space** between the first letter and the `"""` in the first line of comment. And the first character should **use uppercase**.
 
 注释应该要顶着`"""`来写。同时首字母需要大写。
 
-| 代码编写格式                          | 文档显示                              |
+| Code Example                          | Documentation                         |
 | ------------------------------------- | ------------------------------------- |
 | ![1591513795011](./img/docs/img1.png) | ![1591514054954](./img/docs/img2.png) |
 | ![1591513943295](./img/docs/img3.png) | ![1591514086911](./img/docs/img4.png) |
 
-### 2. 注释规范
+### 2. Newline 换行问题
 
-正确例子：
+There should be a new line between summary and details in a comment block. But in the detail part, there should be no new line.
 
-| 代码编写                              | 显示                                  |
-| ------------------------------------- | ------------------------------------- |
-| ![1591516041880](./img/docs/img5.png) | ![1591516056191](./img/docs/img6.png) |
-
-错误例子：
-
-| 代码编写                              | 显示                                  |
-| ------------------------------------- | ------------------------------------- |
-| ![1591516682450](./img/docs/img7.png) | ![1591516692503](./img/docs/img8.png) |
-
-### 3. 注释换行问题
-
-| 代码编写                              | 显示                                   |
+| Code Example                          | Documentation                          |
 | ------------------------------------- | -------------------------------------- |
 | ![1591516116811](./img/docs/img9.png) | ![1591515840206](./img/docs/img10.png) |
-
-### 4. 小问题
-
-| 代码                                   | 显示                                   |
-| -------------------------------------- | -------------------------------------- |
-| ![1591516496649](./img/docs/img11.png) | ![1591516510170](./img/docs/img12.png) |
-
-### 5. 跳转到某个类的注释写法
-
-![1591520192198](./img/docs/img13.png)
-
-Return type的指定:
-
-![1591520240907](./img/docs/img14.png)
-
-![1591520255156](./img/docs/img15.png)
-
-![1591520271277](./img/docs/img16.png)
-
-### 6. 添加数学公式的方法
-
-![1591520769559](./img/docs/img17.png)
-
-### 7. 添加例子说明
-
-| 代码                                   | 显示结果                               |
-| -------------------------------------- | -------------------------------------- |
-| ![1591520811620](./img/docs/img18.png) | ![1591520829207](./img/docs/img19.png) |
-
-### 8. 建议
-
-![1591522096569](./img/docs/img20.png)
 
 ------
 
