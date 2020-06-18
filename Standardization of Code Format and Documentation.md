@@ -5,20 +5,47 @@
 **Last Updated:** 2020-06-14
 
 ## Goal
-
+------
 The goal of this project is to build a flexible framework and unified interfaces for recommender systems (RecSys), with which all the RecSys practitioner and researchers are able to 1) test/evaluate existing models and 2) build/modify their own new models easily. Hence, the code readability is extremely critical. We hope to build a powerful framework with concise codes, which allows others to understand our code in an easy way, even contribute to our project.
 
 In addition, we try to maintain informative documentation, which requires a formatted comment style in codes. Stacking everything into documentation is quite easy, but clear, formatted documentation will be more helpful, and that's what we want to achieve.
 
 Consequently, in this documentation, some rules are listed in order to keep developers writing codes properly. And we hope every contributor is supposed to observe these standards.
 
+
+
+## Python Coding and Docstrings Style
 ------
+We use the automatic style formatter [Black](https://github.com/ambv/black). See the installation guide for [VSCode](https://github.com/ambv/black#visual-studio-code) and [PyCharm](https://github.com/ambv/black#pycharm). Black supersets the well-known style guide [PEP 8](https://www.python.org/dev/peps/pep-0008/), defined by Guido van Rossum and collaborators. PEP 8 defines everything from naming conventions, indentation guidelines, block vs inline comments, how to use trailing commas and so on.
 
-## Overview
+We use [Google style](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html) for formatting the docstrings.
 
-In general, all our codes follow the [Google Python Style Guide](http://google.github.io/styleguide/pyguide.html), and we use PEP8 to check all the code which is ready to merge into `master` in Github Action. Your pull request will not be approved before all your codes are formatted according to the guide.
+- [Black formatting on Python files](https://github.com/ambv/black#the-black-code-style).
+- [Black formatting on Notebooks](https://github.com/csurfer/blackcellmagic).
+- [Docstring with Google style](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html).
+- [Isort to sort imports alphabetically, and automatically separated into sections.](https://pypi.org/project/isort/)
 
-The following examples are part of `demo.py`. For complete usages, please refer to `demo.py`.
+#### If you are using Pycharm, it will be convenient to deploy **black** and **isort** commands as [External Tools](https://www.jetbrains.com/help/pycharm/configuring-third-party-tools.html).
+#### Use the following args to make it [compatible](https://github.com/timothycrosley/isort/issues/694#issuecomment-564261886) with black. 
+```shell
+isort --multi-line=3 --trailing-comma --force-grid-wrap=0 --use-parentheses --line-width=88 [ file.py ]
+```
+
+Or directly apply the default [config file](https://github.com/beta-team/beta-recsys/blob/develop/.isort.cfg) in our project root folder.
+
+```shell
+[settings]
+line_length=88
+indent='    '
+multi_line_output=3
+include_trailing_comma=true
+use_parentheses=true
+force_grid_wrap=0
+```
+
+
+
+### The following examples are part of `demo.py`. For complete usages, please refer to [demo.py](https://github.com/beta-team/community/blob/master/demo.py).
 
 ### Class
 
@@ -173,18 +200,18 @@ In this part, we try to collect
 There should be **no space** between the first letter and the `"""` in the first line of comment. And the first character should **use uppercase**.
 
 
-| Code Example                          | Documentation                         |
-| ------------------------------------- | ------------------------------------- |
-| ![1591513795011](./img/docs/img1.png) | ![1591514054954](./img/docs/img2.png) |
-| ![1591513943295](./img/docs/img3.png) | ![1591514086911](./img/docs/img4.png) |
+| Code Example                         | Documentation                        |
+| ------------------------------------ | ------------------------------------ |
+| ![1591513795011](/img/docs/img1.png) | ![1591514054954](/img/docs/img2.png) |
+| ![1591513943295](/img/docs/img3.png) | ![1591514086911](/img/docs/img4.png) |
 
 ### 2. Newlines
 
 There should be a new line between summary and details in a comment block. But in the detail part, there should be no newline.
 
-| Code Example                          | Documentation                          |
-| ------------------------------------- | -------------------------------------- |
-| ![1591516116811](./img/docs/img9.png) | ![1591515840206](./img/docs/img10.png) |
+| Code Example                         | Documentation                         |
+| ------------------------------------ | ------------------------------------- |
+| ![1591516116811](/img/docs/img9.png) | ![1591515840206](/img/docs/img10.png) |
 
 ------
 
