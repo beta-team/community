@@ -28,7 +28,7 @@ Ensure the PR description clearly describes the problem and solution. Include th
 
 ### Do you intend to add a new feature or change an existing one?
 
-Suggest your change in the [Beta-recsys mailing list](beta_recsys) or [slack](https://join.slack.com/t/beta-recsys/shared_invite/zt-iwmlfb0g-yxeyzb0U9pZfFN~A4mrKpA), where you can collect feedbacks about the change. Then open an issue on GitHub, assign the related members,  and start writing code.
+Suggest your change in the [Beta-recsys mailing list](beta_recsys) or [slack](https://join.slack.com/t/beta-recsys/shared_invite/zt-iwmlfb0g-yxeyzb0U9pZfFN~A4mrKpA), where you can collect feedbacks about the change. Then open an issue on GitHub, assign it to youself or related members,  and start writing code.
 
 Before submitting, please read the [Contributing to Beta-recsys guide](https://beta-recsys.readthedocs.io/en/latest/contribute/standardization-of-code-format-and-documentation.html) to know more about coding conventions and benchmarks.
 
