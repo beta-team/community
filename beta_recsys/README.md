@@ -1,14 +1,15 @@
-# Beta-recsys development community
+# Beta-recsys community resources
 
 ## Community meeting
 
-- Meeting time: Saturday 2:00 – 3:00pm **[UTC +0](https://24timezones.com/time-zone/utc#gref)**, (start from 7 November 2020)**⋅** <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=XzYwcTMwYzFnNjBvMzBlMWk2MG80YWMxZzYwcmo4Z3BsODhyajJjMWg4NHMzNGg5ZzYwczMwYzFnNjBvMzBjMWc2OTIzY2dxMjg4cDQ0Z2hnODUxazhkaGc2NG8zMGMxZzYwbzMwYzFnNjBvMzBjMWc2MG8zMmMxZzYwbzMwYzFnOGwyMzhkaHA2MHFqY2UyNDg1MTM0ZzlrNnQwamFkMWw2OTMzaWNobThjcjRhZTluOGwxZ18yMDIwMTEwN1QxNDAwMDBaIHphaXFpYW8ubWVuZ0Bt&amp;tmsrc=zaiqiao.meng%40gmail.com&amp;scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
+- Meeting time: Saturday (1:30 – 2:30pm **[UTC +0](https://24timezones.com/time-zone/utc#gref)**/9:30 – 10:30pm **[UTC +8](https://24timezones.com/time-zone/utc+8#gref)**), (start from 7 November 2020)**⋅** <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=XzYwcTMwYzFnNjBvMzBlMWk2MG80YWMxZzYwcmo4Z3BsODhyajJjMWg4NHMzNGg5ZzYwczMwYzFnNjBvMzBjMWc2OTIzY2dxMjg4cDQ0Z2hnODUxazhkaGc2NG8zMGMxZzYwbzMwYzFnNjBvMzBjMWc2MG8zMmMxZzYwbzMwYzFnOGwyMzhkaHA2MHFqY2UyNDg1MTM0ZzlrNnQwamFkMWw2OTMzaWNobThjcjRhZTluOGwxZ18yMDIwMTEwN1QxNDAwMDBaIHphaXFpYW8ubWVuZ0Bt&amp;tmsrc=zaiqiao.meng%40gmail.com&amp;scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
 - Meeting minutes: [notes](https://github.com/beta-team/community/tree/master/beta_recsys/meeting%20minutes)
-- Meeting recordings: [recording links](https://github.com/beta-team/community/tree/master/beta_recsys/meeting%20recordings)
+- Meeting recordings: [recording links]: Can be found in each [meeting note](https://github.com/beta-team/community/tree/master/beta_recsys/meeting%20minutes) (since Nov.7, 2020).
 
-## Discussion channels:
+## Discussion channels
 
-- [slack](https://join.slack.com/t/beta-recsys/shared_invite/zt-iwmlfb0g-yxeyzb0U9pZfFN~A4mrKpA)
+- Slack: [join](https://join.slack.com/t/beta-recsys/shared_invite/zt-iwmlfb0g-yxeyzb0U9pZfFN~A4mrKpA)
+- Mailing list: TBC
 
 
 ## Version release
@@ -88,8 +89,6 @@ When a repository is cloned, it has a default remote called `origin` that points
 6. Project set-up is complete.
 
 
-
-
 ### Contributing and developing a feature
 
 1. Make sure you are in the develop branch `git checkout develop`.<br />
@@ -108,7 +107,6 @@ When a repository is cloned, it has a default remote called `origin` that points
 13. Force push to update your pull request with command `git push origin branchname --force`.<br/>
 
 
-
 #### Commit guidelines
 
 - Make sure that you only have one commit for each PR. To merge commits, please refer to [link](https://stackoverflow.com/questions/5189560/squash-my-last-x-commits-together-using-git).
@@ -124,13 +122,14 @@ When a repository is cloned, it has a default remote called `origin` that points
     | "Merge pull request.*$" | Automatic merge                                              |
     | "doc:[[:space:]].*$"    | Improving documentation                                      |
 
-## Active members
+## Active members (based on [Github contributors](https://github.com/beta-team/beta-recsys/graphs/contributors))
 
 - Zaiqiao Meng, University of Cambridge, United Kingdom, zaiqiao.meng@gmail.com
 - Siwei Liu, University of Glasgow, United Kingdom, s.liu.4@research.gla.ac.uk
 - Xi Wang, University of Glasgow, United Kingdom, x.wang.6@research.gla.ac.uk
 - Yucheng Liang, Sun Yat-sen Univeristy, China, liangych28@mail2.sysu.edu.cn
 - Guangtao Zeng, Sun Yat-sen Univeristy, China, zengguangtao98@gmail.com
+- Qiang Zhang, University College, London, qiang.zhang.16@ucl.ac.uk
 - Junhua Liang, Sun Yat-sen Univeristy, China, liangjh45@mail2.sysu.edu.cn
-- Qiang Zhang, University College, London, [qiang.zhang.16@ucl.ac.uk](mailto:qiang.zhang.16@ucl.ac.uk)
+
 
