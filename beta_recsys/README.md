@@ -11,12 +11,19 @@
 - Slack: [join](https://join.slack.com/t/beta-recsys/shared_invite/zt-iwmlfb0g-yxeyzb0U9pZfFN~A4mrKpA)
 - Mailing list: TBC
 
-
 ## Version release
 
 - Version x.x.n update frequency: Four weeks
 - Version x.n.x update frequency: Eight weeks
 - Version n.x.x update frequency: TBC
+
+## Changing log
+
+- **Version v0.2.2 Updates:**
+ - Add Amazon Reviews datasets --> link
+ - New API for Recommenders. --> notebook example
+ - Move the data filtering process to the main dataset classes. -->Usage
+ - New feature for experiment --> Usage
 
 ## Contribution guidelines
 
