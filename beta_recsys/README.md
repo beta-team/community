@@ -8,7 +8,7 @@
 
 ## Discussion channels
 
-- Slack: [join](https://join.slack.com/t/beta-recsys/shared_invite/zt-iwmlfb0g-yxeyzb0U9pZfFN~A4mrKpA)
+- Slack: [![Slack Status](https://img.shields.io/badge/Join-Slack-purple)](https://join.slack.com/t/beta-recsys/shared_invite/zt-iwmlfb0g-yxeyzb0U9pZfFN~A4mrKpA)
 - Mailing list: TBC
 
 ## Version release
