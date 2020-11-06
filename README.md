@@ -3,4 +3,4 @@ Beta-recsys Developer Community
 
 ## Main Projects:
 
-- [Beta-recsys](./beta_recsys/READNE.md)
+- [Beta-recsys](./beta_recsys/README.md)
