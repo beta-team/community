@@ -17,14 +17,6 @@
 - Version x.n.x update frequency: Eight weeks
 - Version n.x.x update frequency: TBC
 
-## Changing log
-
-### **Version v0.2.2 Updates:**
-  - Add Amazon Reviews datasets --> link
-  - New API for Recommenders. --> notebook example
-  - Move the data filtering process to the main dataset classes. -->Usage
-  - New feature for experiment --> Usage
-
 ## Contribution guidelines
 
 ### Did you write a patch that fixes a bug?
