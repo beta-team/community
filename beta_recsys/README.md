@@ -19,11 +19,11 @@
 
 ## Changing log
 
-- **Version v0.2.2 Updates:**
- - Add Amazon Reviews datasets --> link
- - New API for Recommenders. --> notebook example
- - Move the data filtering process to the main dataset classes. -->Usage
- - New feature for experiment --> Usage
+### **Version v0.2.2 Updates:**
+  - Add Amazon Reviews datasets --> link
+  - New API for Recommenders. --> notebook example
+  - Move the data filtering process to the main dataset classes. -->Usage
+  - New feature for experiment --> Usage
 
 ## Contribution guidelines
 
