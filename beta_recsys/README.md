@@ -2,7 +2,7 @@
 
 ## Community meeting
 
-- Meeting time: Saturday (1:30 – 2:30pm **[UTC +0](https://24timezones.com/time-zone/utc#gref)**/9:30 – 10:30pm **[UTC +8](https://24timezones.com/time-zone/utc+8#gref)**), (start from 7 November 2020)**⋅** <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=XzYwcTMwYzFnNjBvMzBlMWk2MG80YWMxZzYwcmo4Z3BsODhyajJjMWg4NHMzNGg5ZzYwczMwYzFnNjBvMzBjMWc2OTIzY2dxMjg4cDQ0Z2hnODUxazhkaGc2NG8zMGMxZzYwbzMwYzFnNjBvMzBjMWc2MG8zMmMxZzYwbzMwYzFnOGwyMzhkaHA2MHFqY2UyNDg1MTM0ZzlrNnQwamFkMWw2OTMzaWNobThjcjRhZTluOGwxZ18yMDIwMTEwN1QxNDAwMDBaIHphaXFpYW8ubWVuZ0Bt&amp;tmsrc=zaiqiao.meng%40gmail.com&amp;scp=ALL"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en-GB.gif"></a>
+- Meeting time: Saturday (1:30 – 2:30pm **[UTC +0](https://24timezones.com/time-zone/utc#gref)**/9:30 – 10:30pm **[UTC +8](https://24timezones.com/time-zone/utc+8#gref)**), (start from 7 November 2020)**⋅** <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NHRnYWNqdThkcTltYzlpYnNrZW4xa2NkaDAgcmVjc3lzLmJldGFAbQ&amp;tmsrc=recsys.beta%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
 - Meeting minutes: [notes](https://github.com/beta-team/community/tree/master/beta_recsys/meeting%20minutes)
 - Meeting recordings: [recording links]: Can be found in each [meeting note](https://github.com/beta-team/community/tree/master/beta_recsys/meeting%20minutes) (since Nov.7, 2020).
 
