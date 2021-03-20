@@ -45,8 +45,6 @@
 
 ### Past actions/issues
 
-Labels- levels
-
 - [Use Modin to replace pandas](https://github.com/beta-team/beta-recsys/issues/403)
 - [Add a contrastive data loader](https://github.com/beta-team/beta-recsys/issues/400) [enhancement](https://github.com/beta-team/beta-recsys/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
 - [test function for sequencial data](https://github.com/beta-team/beta-recsys/issues/392)
